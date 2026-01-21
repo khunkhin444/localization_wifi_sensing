@@ -4,14 +4,15 @@
 # Keep Jupyter notebooks
 !*.ipynb
 
-# Keep unlabel_figures folders/files
-!unlabel_figures*/
+# Keep folders and their contents
+!unlabel_figures/
+!unlabel_figures/**
 
-# Keep unlabel_preds folders/files
-!unlabel_preds*/
+!unlabel_preds/
+!unlabel_preds/**
 
-# Keep models folder
 !models/
+!models/**
 
 # Keep .gitignore itself
 !.gitignore
