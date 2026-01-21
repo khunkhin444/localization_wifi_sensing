@@ -5,11 +5,11 @@
 !*.ipynb
 
 # Keep folders and their contents
-!unlabel_figures/
-!unlabel_figures/**
+!unlabel_figures*/
+!unlabel_figures/**/*
 
-!unlabel_preds/
-!unlabel_preds/**
+!unlabel_preds*/
+!unlabel_preds/**/*
 
 !models/
 !models/**
