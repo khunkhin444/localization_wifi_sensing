@@ -1,0 +1,23 @@
+# Ignore everything by default
+*
+
+# Keep Jupyter notebooks
+!*.ipynb
+
+# Keep NumPy arrays
+!*.npy
+
+# Keep unlabel_figures folders/files
+!unlabel_figures*/
+
+# Keep unlabel_preds folders/files
+!unlabel_preds*/
+
+# Keep models folder
+!models/
+
+# Keep .gitignore itself
+!.gitignore
+
+# Optionally keep README
+!README.md
