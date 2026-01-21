@@ -1,21 +1,20 @@
-# Ignore everything by default
+# ignore everything
 *
 
-# Keep Jupyter notebooks
+# keep notebooks
 !*.ipynb
 
-# Keep folders and their contents
+# keep any folder starting with unlabel_figures
 !unlabel_figures*/
-!unlabel_figures/**/*
+!unlabel_figures*/**
 
+# keep any folder starting with unlabel_preds
 !unlabel_preds*/
-!unlabel_preds/**/*
+!unlabel_preds*/**
 
+# keep models
 !models/
 !models/**
 
-# Keep .gitignore itself
 !.gitignore
-
-# Optionally keep README
 !README.md
