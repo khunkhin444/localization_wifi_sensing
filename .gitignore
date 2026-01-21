@@ -4,9 +4,6 @@
 # Keep Jupyter notebooks
 !*.ipynb
 
-# Keep NumPy arrays
-!*.npy
-
 # Keep unlabel_figures folders/files
 !unlabel_figures*/
 
